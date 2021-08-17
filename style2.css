@@ -1,0 +1,60 @@
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.nav-link {
+    color: gray;
+    font-size: 20px;
+}
+
+.carousel-item img{
+    width: 80% !important;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item p {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: white;
+    font-size: 46px;
+}
+
+footer {
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer i {
+    cursor: pointer;
+    font-size: 40px;
+}
+
+footer i:hover {
+    transform: scale(1.2);
+}
+
+footer a:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.media {
+    color: black;
+}
