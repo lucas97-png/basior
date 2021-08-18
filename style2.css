@@ -1,3 +1,7 @@
+/* body {
+    background: linear-gradient(0deg, gray, white 90%) no-repeat;
+} */
+
 header img {
     width: 100%;
     height: auto;
@@ -8,19 +12,9 @@ header img {
     font-size: 20px;
 }
 
-.carousel-item img{
-    width: 80% !important;
+main img {
+    width: 100%;
     height: auto;
-    margin: 0 auto;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
-}
-
-.carousel-item {
-    position: relative;
 }
 
 .carousel-item p {
