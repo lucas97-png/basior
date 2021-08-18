@@ -1,6 +1,16 @@
-/* body {
-    background: linear-gradient(0deg, gray, white 90%) no-repeat;
-} */
+body {
+    background: linear-gradient(0deg, rgb(88, 88, 88), white 90%) no-repeat;
+}
+
+#up-button {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    font-size: 30px;
+    color: black
+}    
 
 header img {
     width: 100%;
