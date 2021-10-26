@@ -3,14 +3,19 @@ body {
 }
 
 #up-button {
+    display: none;
     position: fixed;
-    bottom: 0;
-    right: 0;
+    top: 10%;
+    right: 5%;
     background: transparent;
     border: none;
     font-size: 30px;
     color: black
 }    
+
+a.nav-link {
+    cursor: pointer;
+}
 
 header img {
     width: 100%;
@@ -61,4 +66,10 @@ footer a:hover {
 
 .media {
     color: black;
+}
+
+@media (orientation: portrait) {
+    body {
+        background: linear-gradient(0deg, rgb(88, 88, 88), white 95%) no-repeat;
+    }
 }
